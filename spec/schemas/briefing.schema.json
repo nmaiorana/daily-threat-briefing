@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DailyBriefing",
+  "type": "object",
+  "required": ["date", "sections"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "sections": {
+      "type": "object",
+      "required": ["exploits", "actors", "supply_chain", "patch_now"],
+      "properties": {
+        "exploits": { "type": "array", "items": { "type": "string" } },
+        "actors": { "type": "array", "items": { "type": "string" } },
+        "supply_chain": { "type": "array", "items": { "type": "string" } },
+        "patch_now": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
