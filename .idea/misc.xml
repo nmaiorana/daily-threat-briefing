@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (daily-threat-briefing)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (daily-threat-briefing)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (daily-threat-briefing)" project-jdk-type="Python SDK" />
 </project>
